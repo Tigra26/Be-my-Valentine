@@ -9,10 +9,7 @@ buttonYes.addEventListener('click', buttonYesPushed);
 
 
 function doYesMore () {
-    buttonYesFontSize += .4;
-    buttonYes.style.fontSize = buttonYesFontSize + 'em';
-    buttonNoFontSize -= .2;
-    buttonNo.style.fontSize = buttonNoFontSize - 'em';
+    location.href = './page3.html';
 };
 
 function buttonYesPushed () {
